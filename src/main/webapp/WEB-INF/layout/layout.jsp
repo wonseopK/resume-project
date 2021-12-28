@@ -91,7 +91,6 @@
 			$(".about-container").show()
 			$(".function-video1").get(0).pause()
 			$(".function-video2").get(0).pause()
-			
 		})
 		//project 페이
 		$(".project").click(function() {

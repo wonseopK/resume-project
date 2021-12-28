@@ -54,8 +54,13 @@ padding: 20px;
 		<h1>Team Project 번뜩</h1>
 		<br>
 		<span class='content-title'>메인화면</span><br>
-		<img alt="메인화면" src="../project/main.JPG" style='width: 800px;'>
-		
+		<img alt="메인화면" src="../project/main.JPG" style='width: 800px;'><br><br>
+		<span class='content-title'>프로젝트 영상</span><br>
+		<iframe width="800" height="515" 
+		src="https://www.youtube.com/embed/w9w6OACFT28" 
+		title="YouTube video player" frameborder="0" 
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+		allowfullscreen></iframe>
 		<br><br><br>
 		<hr>
 		<span class='content-title'>프로젝트 설명</span><br>
