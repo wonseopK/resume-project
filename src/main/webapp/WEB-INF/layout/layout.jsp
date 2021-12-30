@@ -28,7 +28,7 @@
 <body>
 	<div class="inner">
 		<div class="my-info-container">
-			<img class="profile-photo" src="../profile/wonseop.jpg" alt="profile-photo">
+			<img class="profile-photo" src="../profile/wonseop3.jpg" alt="profile-photo">
 			<ul class="menu">
 				<li class='my-info'><i class="fa fa-user-o"></i> ABOUT ME</li>
 				<p>
@@ -37,8 +37,10 @@
 					<a href='https://github.com/wonseopK' target="blank"><i class="fa fa-github"></i> github</a><br>
 					<a href='https://www.youtube.com/channel/UCpIKHp3Tve0Djnlq_1iCwYA' target="blank"><i class="fa fa-youtube-play"></i> youtube</a>
 				</p>
-				<li class='project'><i class="fa fa-laptop" ></i> PROJECT</li>
-				<p>진행했던 프로젝트를 확인할 수 있습니다.</p>
+				<li class='project'><i class="fa fa-laptop" ></i> PROJECT-BUNNDEK</li>
+				<p>SpringBoot를 활용한 팀프로젝트 번뜩입니다.</p>
+				<li class='project-gifty'><i class="fa fa-laptop" ></i> PROJECT-GIFTY</li>
+				<p>진행 예정 중인 프로젝트입니다.</p>
 				<li class='contact'><i class="fa fa-envelope-o"></i> CONTACT</li>
 				<p>궁금하신 점이있으면 언제든지 문의 주세요</p>
 			</ul>
@@ -82,8 +84,8 @@
 		  </div>
 		</div>
 	<script type="text/javascript">
-		$(".project-container").show()	
-			$(".about-container").hide()
+		$(".about-container").show()	
+			$(".project-container").hide()
 	
 		//about 페이지
 		$(".my-info").click(function() {
@@ -92,11 +94,22 @@
 			$(".function-video1").get(0).pause()
 			$(".function-video2").get(0).pause()
 		})
-		//project 페이
+		//project gify 페이지
+		$(".project-gifty").click(function() {
+			let check = confirm("현제 진행중인 미완성 프로젝트입니다. GitHub에서 진행상황을 확인하시려면 확인을 눌러주세요.")
+			if(check){
+				 var url = "https://github.com/wonseopK/donation-project";  
+		         window.open(url, "_blank");  
+			}
+		})
+		
+		//project 번뜩 페이지
 		$(".project").click(function() {
 			$(".project-container").show()	
 			$(".about-container").hide()	
 		})
+		
+		
 		
 		//CONTACT 기능
 		let showCount = $(".count-letter")
