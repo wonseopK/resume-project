@@ -35,7 +35,6 @@
 					Name: 김원섭<br> Birth: 1993/12/07<br>
 					<a href='https://blog.naver.com/wonseob7942' target="blank"><i class="fa fa-book"></i> blog</a><br>
 					<a href='https://github.com/wonseopK' target="blank"><i class="fa fa-github"></i> github</a><br>
-					<a href='https://www.youtube.com/channel/UCpIKHp3Tve0Djnlq_1iCwYA' target="blank"><i class="fa fa-youtube-play"></i> youtube</a>
 				</p>
 				<li class='project'><i class="fa fa-laptop" ></i> PROJECT-BUNNDEK</li>
 				<p>SpringBoot를 활용한 팀프로젝트 번뜩입니다.</p>
